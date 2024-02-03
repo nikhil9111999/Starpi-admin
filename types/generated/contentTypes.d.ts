@@ -843,6 +843,7 @@ export interface ApiPortfolioPortfolio extends Schema.CollectionType {
       'developer-section.developer-section',
       true
     >;
+    code: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
