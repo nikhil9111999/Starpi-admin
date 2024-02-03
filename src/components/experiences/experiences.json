@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_experiences_experiences",
+  "info": {
+    "displayName": "Experiences",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
