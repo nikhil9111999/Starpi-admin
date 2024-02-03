@@ -28,7 +28,7 @@
     },
     "mobile": {
       "type": "integer",
-      "required": false
+      "required": true
     },
     "birthday": {
       "type": "date"
