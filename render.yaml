@@ -1,0 +1,4 @@
+buildCommand: "npm run build"
+postbuild:
+  - "npm run migrate"
+startCommand: "npm run start"
