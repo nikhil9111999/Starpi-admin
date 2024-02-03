@@ -827,7 +827,7 @@ export interface ApiPortfolioPortfolio extends Schema.CollectionType {
     tag: Attribute.String;
     userDescription: Attribute.Text;
     email: Attribute.Email;
-    mobile: Attribute.Integer & Attribute.Required;
+    mobile: Attribute.Integer;
     birthday: Attribute.Date;
     socialmedia: Attribute.Component<'social-links.link', true>;
     profilephoto: Attribute.Media;
