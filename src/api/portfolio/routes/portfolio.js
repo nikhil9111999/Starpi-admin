@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * portfolio router test
+ * portfolio router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
